@@ -125,7 +125,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 #개발단계에서 정적 파일들의 위치
-STATICFILES_DIRS=(
-   os.path.join(BASE_DIR, "static"),
-)
+#STATICFILES_DIRS=(
+#   os.path.join(BASE_DIR, "static"),
+#)
 
